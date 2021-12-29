@@ -216,7 +216,7 @@ section {
 
 .proyects .heading {
   text-align: center;
-  padding: 1rem;
+  padding: 3.5rem 0;
   color: var(--secondary);
 }
 
@@ -275,6 +275,7 @@ section {
 .contact .heading {
   text-align: center;
   color: var(--secondary);
+  padding: 3.5rem 0;
   margin-bottom: 3rem;
 }
 .contact__container {
