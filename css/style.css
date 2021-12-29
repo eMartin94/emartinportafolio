@@ -403,10 +403,10 @@ section {
 @media (max-width: 768px) {
   /*  */
   .header {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
   }
   .header.active {
-    padding: 1rem;
+    padding: 2rem 2rem;
   }
   .header #menu-btn {
     display: inline-block;
