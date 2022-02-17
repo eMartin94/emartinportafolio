@@ -220,21 +220,15 @@ section {
   color: var(--secondary);
 }
 
-.proyects .box-container .box:hover img {
-  transform: translateY(-100%);
-  transition: all 0.5s ease;
-}
-
-.proyects .box-container .box:hover .content {
-  transition: all 0.3s ease;
-  transform: translateY(0);
-}
-
 .proyects .box-container .box img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+}
+.proyects .box-container .box:hover img {
+  transform: translateY(-100%);
+  transition: all 0.5s ease;
 }
 
 .proyects .box-container .box .content {
@@ -248,6 +242,12 @@ section {
   transform: translateY(100%);
   padding-top: 1.5rem;
 }
+
+.proyects .box-container .box:hover .content {
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
 
 .proyects .box-container .box .content h3 {
   font-size: 2rem;
